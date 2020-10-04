@@ -2,7 +2,7 @@
 ## About
 **This repository is my second GitHub lesson.**
 <br>
-### It's try to access [my instagram page](https://www.instagram.com/direct/new/).
+### It's try to access my instagram page, and send messages to any of my followers.
 <br>
 
 ## Technology
