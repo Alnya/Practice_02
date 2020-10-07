@@ -18,6 +18,10 @@ def close_tab():
     pyautogui.hotkey("ctrl", "w")
 
 
+def ctrl_v():
+    pyautogui.hotkey("ctrl", "v")
+
+
 def main(name, message):
     type_string(name)
     time.sleep(2)
