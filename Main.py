@@ -1,15 +1,7 @@
 import direct_message
 import send_dm
-
-'''
-instagram_name = input("Tell me instagram name of the participant.\n>>>")
-print()
-message = input("Type messages you want to send.\n>>>")
-
-open_instagram.open_instagram()
-time.sleep(3)
-send_dm.main(instagram_name, message)
-'''
+import entry_list
+import import_list
 
 
 def search_dm(name, message):
@@ -21,7 +13,16 @@ def direct_send(name, message):
 
 
 def main():
-    direct_send("test_code01", "test")
+    entry_list.main()
+    en_ls = import_list.import_list()
+    for i in range(len(en_ls)):
+        if en_ls[i][1] == "":
+            break
+        else:
+            message = str(en_ls[i][0]) + " : " + str(en_ls[i][1])
+            direct_send(en_ls[i][2], message)
+            print(f"{en_ls[i][1]} is completed.")
+    print("all complete!")
 
 
 if __name__ == '__main__':
