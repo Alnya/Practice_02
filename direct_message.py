@@ -8,8 +8,8 @@ def input_message(message):
     pyperclip.copy(message)
 
 
-def direct_message(x, message):
-    open_instagram.instagram_account(x)
+def direct_message(name, message):
+    open_instagram.instagram_account(name)
     time.sleep(5)
     send_dm.type_tab()
     time.sleep(1)
