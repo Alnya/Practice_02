@@ -21,7 +21,7 @@ def main():
         else:
             message = str(en_ls[i][0]) + " : " + str(en_ls[i][1])
             direct_send(en_ls[i][2], message)
-            print(f"{en_ls[i][1]} is completed.")
+            print(f"{en_ls[i][0]}:{en_ls[i][1]} is completed.")
     print("all complete!")
 
 
