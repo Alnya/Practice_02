@@ -1,4 +1,5 @@
 def import_list():
+    # 指定したパスのテキストファイルを取得し、UTF-8でエンコードして3*30の二次元リストを作成し、返却する
     path = "c:\\morinaga\\entrylist\\test.txt"
     with open(path, encoding="UTF-8") as file:
         s = file.read()

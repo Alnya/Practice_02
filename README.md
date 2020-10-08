@@ -6,6 +6,6 @@
 <br>
 
 ## Technology
-This program uses *webbrowser* module and *pyautogui* module and *time* module.
+This program uses *webbrowser* module and *pyperclip* module and *pyautogui* module and *time* module.
 <br>
 I can access my instagram account that is in advance I log in.
