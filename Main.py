@@ -33,7 +33,7 @@ def main():
             # ブラウザから相手のインスタアカウントへmessageを送信
             print(f"{en_ls[i][0]}:{en_ls[i][1]} is completed.")
             # 無事に送信できたかどうかにかかわらず、出力。参加人数分このメッセージが出力される。
-    print("all complete!")
+    print("All completed!")
     # 参加人数分送信したことを便宜的に出力。
 
 
