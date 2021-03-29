@@ -1,4 +1,5 @@
 import webbrowser
+from settings import get_direct_message_path
 
 
 def open_instagram():
@@ -14,5 +15,5 @@ def instagram_account(name):
 
 if __name__ == "__main__":
     # 動作確認として、テストアカウントページへ遷移
-    instagram_account("test_code01")
+    instagram_account(get_direct_message_path())
     # open_instagram()

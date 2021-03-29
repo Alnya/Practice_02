@@ -1,11 +1,13 @@
 import pyautogui
 import time
 import webbrowser
+from settings import get_google_drive_path
+from settings import get_entry_list_path
 
 
 def open_entry_list():
     # Google Driveに保存されている、Google Spread Sheetから転記したテキストファイルをブラウザで開く
-    webbrowser.open("https://drive.google.com/file/d/124ULL-5sQE89yTqmJyassTW9J5dkrxWV/view?usp=sharing")
+    webbrowser.open(get_google_drive_path())
 
 
 def ctrl_s():
@@ -67,7 +69,7 @@ def main():
     time.sleep(0.1)
     backspace()
     time.sleep(0.1)
-    string("\\morinaga\\entrylist")
+    string(get_entry_list_path())
     time.sleep(0.1)
     enter()
     time.sleep(0.1)

@@ -2,6 +2,7 @@ import pyautogui
 import time
 import open_instagram
 import pyperclip
+from settings import get_direct_message_path
 
 
 def type_string(message):
@@ -66,4 +67,4 @@ def main(name, message):
 
 if __name__ == '__main__':
     # 動作確認として、test_code01へtest_send_messageを送る
-    main("test_code01", "test_send_message")
+    main(get_direct_message_path(), "test_send_message")

@@ -1,11 +1,11 @@
-# Practice_02
+# for Instagram
 ## About
-**This repository is my second GitHub lesson.**
-<br>
-### It's try to access my instagram page, and send messages to any of my followers.
-<br>
+It's trying to access my instagram page, and send messages to any of my followers.
 
 ## Technology
 This program uses *webbrowser* module and *pyperclip* module and *pyautogui* module and *time* module.
-<br>
-I can access my instagram account that is in advance I log in.
+You can access your instagram account that is in advance you logged in.
+
+## How to do
+**in the terminal**
+> python main.py

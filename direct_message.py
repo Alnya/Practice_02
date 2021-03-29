@@ -2,6 +2,7 @@ import open_instagram
 import send_dm
 import time
 import pyperclip
+from settings import get_direct_message_path
 
 
 def input_message(message):
@@ -37,4 +38,4 @@ def direct_message(name, message):
 
 
 if __name__ == '__main__':
-    direct_message("test_code01", "日本語入力のテスト\n改行のテスト")
+    direct_message(get_direct_message_path(), "日本語入力のテスト\n改行のテスト")
